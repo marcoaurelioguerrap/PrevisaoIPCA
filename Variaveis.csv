@@ -1,0 +1,41 @@
+﻿cod ;Nome da Variavél;unidade;Tipo
+433 - BACEN; IPCA ;Var. % mensal;Preço e dinheiro
+189  - BACEN; IGP-M ;Var. % mensal;Preço e dinheiro
+190  - BACEN; IGP-DI ;Var. % mensal;Preço e dinheiro
+7447  - BACEN; IGP-10 ;Var. % mensal;Preço e dinheiro
+1788  - BACEN; Base monetária restrita (saldo em final de período) ;u.m.c (mil);Preço e dinheiro
+27791  - BACEN; M1 (saldo em final de período) - Novo ;u.m.c (mil);Preço e dinheiro
+27810  - BACEN; M2 (saldo em final de período) - Novo ;u.m.c (mil);Preço e dinheiro
+27813  - BACEN; M3 (saldo em final de período) - Novo ;u.m.c (mil) ;Preço e dinheiro
+27815  - BACEN; M4 (saldo em final de periodo) - Novo ;u.m.c (mil);Preço e dinheiro
+24369  - BACEN; Taxa de desocupação - PNADC ;porcentagem;Emprego
+24348  - BACEN; Número de horas trabalhadas – indústria de transformação (2006=100) ;indice;Emprego
+28766  - BACEN; Estoque de empregos formais – Indústrias de transformação ;unidades;Emprego
+3695  - BACEN; Taxa de câmbio - Livre - Dólar americano (compra) - Fim de período - mensal ;R$/u.m.c;cambio e financas
+21619  - BACEN; Taxa de câmbio - Livre - Euro (venda) ;R$/u.m.c;cambio e financas
+Yahoo Finance ; Ibov  ;Pontos;cambio e financas
+23  - BACEN; Saldo diário de depósitos de poupança - SBPE e rural ;u.m.c (mil);cambio e financas
+24  - BACEN; Captação líquida diária de depósitos de poupança - SBPE e rural ;u.m.c (mil);cambio e financas
+256  - BACEN; Taxa de juros de longo prazo - TJLP ;per. a.a.;cambio e financas
+432  - BACEN; Taxa de juros - Meta Selic definida pelo Copom ;per. a.a.;cambio e financas
+1157  - BACEN; Taxa média flutuantes DI de depósitos a prazo (CDB/RDB) - Total ;per. a.d.;cambio e financas
+22701  - BACEN; Transações correntes - mensal - saldo ;US$ (milhões);Governo e transações internacionais
+22707  - BACEN; Balança comercial - Balanço de Pagamentos - mensal - saldo ;US$ (milhões);Governo e transações internacionais
+4503 - BACEN;Divida Pública Liquida como Porcentagem do PIB;Porcentagem;Governo e transações internacionais
+10825 - BACEN;Divida Pública Liquida;US$ (milhões);Governo e transações internacionais
+4480 - BACEN;Dívida Interna do Governo Central;US$ (milhões);Governo e transações internacionais
+4479 - BACEN;Dívida Interna Líquida do Governo Central e Banco Central;US$ (milhões);Governo e transações internacionais
+4472 - BACEN;Dívida Líquida dos Estados;US$ (milhões);Governo e transações internacionais
+4494 - BACEN;Dívida Líquida dos Estados com estrangeiros;US$ (milhões);Governo e transações internacionais
+4473 - BACEN;Dívida Líquida dos Municipios;US$ (milhões);Governo e transações internacionais
+4495 - BACEN;Dívida Líquida dos Municipios com Estrangeiros;US$ (milhões);Governo e transações internacionais
+Planilha do Tesouro;Receita PIS & PASEP ;US$ (milhões);Governo e transações internacionais
+Planilha do Tesouro;Revenue Receita do governo central;US$ (milhões);Governo e transações internacionais
+Planilha do Tesouro;Gasto total do Governo Central;US$ (milhões);Governo e transações internacionais
+Planilha do Tesouro;Renda de Imposto sobre Importação;US$ (milhões);Governo e transações internacionais
+Planilha do Tesouro; Renda do Imposto Sobre produto industrializados;US$ (milhões);Governo e transações internacionais
+Planilha do Tesouro;Receita de outros impostos;US$ (milhões);Governo e transações internacionais
+Planilha do Tesouro;Receita do Sistema de segurança social;US$ (milhões);Governo e transações internacionais
+BACEN;Mediana das Expectativas de mercado para IPCA em t ( para t de 1 à 13 );Var. % mensal do Índice;Expectativas
+BACEN;desvio padrão das Expectativas de mercado ( para t igual a 1, 2 e 12);NA;Expectativas
+BACEN;Mediana das Expectativas TOP5 de mercado para IPCA em t ( para t de 1 à 13 );Var. % mensal do Índice;Expectativas
