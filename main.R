@@ -50,7 +50,7 @@ rodar_modelos <- 'não'
 print('1) Coleta dos dados')
 if (carregar_dados == 'sim'){
   
-  source('Carrega_dados.R',encoding = 'UTF-8')
+  source('Carrega_dados.R',encoding = 'UTF-8',local = TRUE)
   
 } else {
   
@@ -65,7 +65,7 @@ if (carregar_dados == 'sim'){
 print('2) Transformação dos dados')
 if (transformar_dados == 'sim'){ 
   
-  source('transforma_as_variaveis.R',encoding = 'UTF-8')
+  source('transforma_as_variaveis.R',encoding = 'UTF-8',local = TRUE)
   
 } else {
   
@@ -92,7 +92,7 @@ if (rodar_modelos == 'sim'){
   
 } else {
   
-  todas_previsoes_por_horizonte <- readRDS('todas_previsoes_por_horizonte')
+  todas_previsoes_por_horizonte <- readRDS('todas_previsoes_por_horizonte',local = TRUE)
   
 }
 
@@ -101,11 +101,11 @@ if (rodar_modelos == 'sim'){
 
 print('4) Apresentação dos resultados shiny app')
 
-source('./funcoes/funcoes_resultados.R',encoding = 'UTF-8')
+source('./funcoes/funcoes_resultados.R',encoding = 'UTF-8',local = TRUE)
 
-source('resultados.R',encoding = 'UTF-8')
+source('resultados.R',encoding = 'UTF-8',local = TRUE)
 
-source('./funcoes/shiny.R',encoding = 'UTF-8')
+source('./funcoes/shiny.R',encoding = 'UTF-8',local = TRUE)
 
 shinyApp(ui,server)
 
